@@ -1,0 +1,23 @@
+header {
+    background-color: #0D0D0D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    width: 60%;
+    aspect-ratio: 4/1;
+    border: 1px solid black;
+    margin: 30px 0px;
+}
+
+.project:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.project:nth-child(odd) {
+    align-self: flex-end;
+}
